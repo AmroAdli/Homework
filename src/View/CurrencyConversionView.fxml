@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="445.0" prefWidth="648.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="View.CurrencyConversionViewController">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="60.0" prefWidth="374.0">
+         <children>
+            <Text layoutX="14.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Currency Converstion system" wrappingWidth="294.556640625">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="420.0" layoutY="14.0" prefHeight="60.0" prefWidth="214.0">
+         <children>
+            <Button layoutX="70.0" layoutY="15.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="95.0" style="-fx-background-color: #ffbc00;" text="Log out" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="22.0" layoutY="87.0" prefHeight="330.0" prefWidth="596.0" style="-fx-background-color: gray; -fx-background-radius: 15px;">
+         <children>
+            <Button layoutX="261.0" layoutY="290.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="95.0" style="-fx-background-color: blue;" text="Convert" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <TextField layoutX="68.0" layoutY="152.0" prefHeight="27.0" prefWidth="193.0" />
+            <TextField layoutX="356.0" layoutY="152.0" prefHeight="27.0" prefWidth="193.0" />
+            <Text layoutX="140.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USD" textAlignment="CENTER" wrappingWidth="48.033203125">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="428.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NIS" textAlignment="CENTER" wrappingWidth="48.033203125">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="291.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To" textAlignment="CENTER" wrappingWidth="35.318359375">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
